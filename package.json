@@ -1,0 +1,39 @@
+{
+  "name": "@samwen/base62-util",
+  "version": "1.0.0",
+  "description": "instead of base64, base62 (alphanumeric) encode/decode for string",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samswen/base62-util.git"
+  },
+  "keywords": [
+    "base62",
+    "encode",
+    "decode",
+    "alphanumeric",
+    "not",
+    "base64"
+  ],
+  "author": "Sam Wen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samswen/base62-util/issues"
+  },
+  "homepage": "https://github.com/samswen/base62-util#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "mocha": "^6.2.2",
+    "sinon": "^8.0.2"
+  },
+  "dependencies": {
+    "base-x": "^3.0.7"
+  }
+}
