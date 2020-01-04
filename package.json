@@ -1,8 +1,8 @@
 {
   "name": "@samwen/base62-util",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "instead of base64, base62 (alphanumeric) encode/decode for string",
-  "main": "index.js",
+  "main": "src/index.js",
   "directories": {
     "test": "test"
   },
